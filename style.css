@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background: rgb(172, 160, 160);
+    padding: 40px;
+    width: 900px;
+    height: 200px;
+    align-items: center;
+
+}
+
+

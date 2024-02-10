@@ -1,7 +1,10 @@
 header {
 	background: #333;
 	color: white;
-	height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 h1 {
 	font-size: 2.3em;
@@ -12,7 +15,13 @@ h1 {
 }
 nav {
 
- justify-content: center;}
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
 	nav ul {
 		margin: 0;
 		padding: 0;
@@ -22,28 +31,46 @@ nav {
 	nav ul li {
 	display: inline-block;
 	line-height: 80px;
+
 	}
 			
 	nav ul li a {
 	display: block;
 	padding: 0 10px;
 	text-decoration: none;
+    color: aquamarine;
 	}
 			
 	nav ul li a:hover {
-	background: #0b76a6;
-	}body{
+	background: #68b3d6;
+	}
+    
+    body{
     display: flex;
     justify-content: center;
 
 }
 .container{
-    background: rgb(172, 160, 160);
-    padding: 40px;
-    width: 900px;
-    height: 200px;
-    align-items: center;
-
+/* position: absolute; */
+    z-index: 1;
 }
 
+body{
+    background: rgb(172, 160, 160);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
 
+.footer-section{
+    background-color: rgb(77, 61, 216);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+h5{
+    color: brown;
+
+}
